@@ -18,9 +18,7 @@ export default class Home extends Component {
                       <h6>hello there onlookers, i am</h6>
                       <h3>dana huget</h3>
                       <h4>software developer, bsc geomatics</h4>
-                      {/* <p></p> */}
                       <ul className="list basic_info">
-                        {/* <li><a href="#"><i className="lnr lnr-calendar-full" /> 31st December, 1992</a></li> */}
                         <li><a href={Pdf} target = "_blank"><i className="lnr lnr-download" />Resume</a></li>
                         <li><a href="mailto: danaliyahuget@gmail.com"><i className="lnr lnr-envelope" />Email Me</a></li>
                         <li><a href="https://goo.gl/maps/FpXecvVV91kDRQex9" target="_blank"><i className="lnr lnr-home" /> Victoria, BC Canada</a></li>
@@ -38,8 +36,6 @@ export default class Home extends Component {
             </div>
           </div>
         </section>
-        {/*================End Home Banner Area =================*/}
-        {/*================Welcome Area =================*/}
       </div>
     )
   }

@@ -4,8 +4,6 @@ export default class About extends Component {
     render() {
       return (
       <div>
-        {/*================End Home Banner Area =================*/}
-        {/*================Welcome Area =================*/}
         <section className="welcome_area p_120">
           <div className="container">
             <div className="row welcome_inner">
