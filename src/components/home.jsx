@@ -15,9 +15,9 @@ export default class Home extends Component {
                   </div>
                   <div className="media-body">
                     <div className="personal_text">
-                      <h6>hi hello there onlookers, i am</h6>
+                      <h6>hello there onlookers, i am</h6>
                       <h3>dana huget</h3>
-                      <h4>junior software developer, bsc geomatics</h4>
+                      <h4>software developer, bsc geomatics</h4>
                       {/* <p></p> */}
                       <ul className="list basic_info">
                         {/* <li><a href="#"><i className="lnr lnr-calendar-full" /> 31st December, 1992</a></li> */}
@@ -28,6 +28,7 @@ export default class Home extends Component {
                       <ul className="list personal_social">
                         <li><a href="www.linkedin.com/in/dana-huget" target="_blank"><i className="fa fa-linkedin" /></a></li>
                         <li><a href="https://github.com/dahuget" target="_blank"><i className="fa fa-github" /></a></li>
+                        <li><a href="https://dahuget.home.blog/" target="_blank"><i className="fa fa-wordpress" /></a></li>
                         <li><a href="https://www.instagram.com/honeypothogs/" target="_blank"><i className="fa fa-instagram" /></a></li>
                       </ul>
                     </div>
