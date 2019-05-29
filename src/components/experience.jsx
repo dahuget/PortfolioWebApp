@@ -97,7 +97,7 @@ export default class Experience extends Component {
                         </div>
                         <div className="media-body">
                           <a href="https://indrorobotics.ca/training" target="_blank">
-                            <h4>InDro Robotics</h4>
+                            <h4>InDro Robotics & Remote Sensing</h4>
                           </a>
                           <p>Compliant UAV Pilot <br />Salt Spring Island, BC</p>
                         </div>

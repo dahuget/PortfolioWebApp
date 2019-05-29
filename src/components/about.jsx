@@ -10,7 +10,7 @@ export default class About extends Component {
               <div className="col-lg-7">
                 <div className="welcome_text">
                   <h4>About Myself</h4>
-                  <p>𝗗𝗮𝗻𝗮 [dānə] (person) 𝘯𝘰𝘶𝘯<br /> 𝟣 Software engineering professional with a BSc 
+                  <p>𝟣 Software engineering professional with a BSc 
                   focused in computer science & geography (think coding + maps) from the University 
                   of Victoria. <br /> 2 Proud founding member and VP of an all female motorcycle club.<br /> 
                   3 Pursuer of knowledge and understanding.<br /> 4 Literary consumer (and sometimes 
