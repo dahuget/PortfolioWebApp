@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Pdf from '../documents/DanaHuget-Resume.pdf'
+import personalImg from './img/personal.jpg'
 
 export default class Home extends Component {
     render() {
@@ -11,7 +12,7 @@ export default class Home extends Component {
               <div className="banner_content">
                 <div className="media">
                   <div className="d-flex">
-                    <img src="img/personal.jpg" alt />
+                    <img src={personalImg} alt />
                   </div>
                   <div className="media-body">
                     <div className="personal_text">
