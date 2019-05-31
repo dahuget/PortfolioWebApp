@@ -30,14 +30,14 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <video className="img-fluid" src="img/projects/moto-flash.png" alt />
+                    <img className="img-fluid" src="img/projects/moto-flash.png" alt />
                     <a className="light" href="img/projects/moto-flash.png"><img src="img/binoculars-icon.png" alt /></a>
                   </div>
                   <div className="g_item_text"> 
                     <a href="https://github.com/dahuget/2DFlashAnimation" target="_blank">
                       <h4>2D Flash Animation</h4>
                     </a>
-                    <p>OpenGL, GLSL</p>
+                    <p>OpenGL, C++ & GLSL</p>
                   </div>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default class Projects extends Component {
                     <a href="https://github.com/dahuget/VirtualWorld" target="_blank">
                       <h4>3D Virtual World Rendering</h4>
                     </a>
-                    <p>OpenGL, GLSL</p>
+                    <p>OpenGL, C++ & GLSL</p>
                   </div>
                 </div>
               </div>

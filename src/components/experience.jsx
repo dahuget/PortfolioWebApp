@@ -22,7 +22,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p>Sept 2018 to Present &nbsp;&nbsp;&nbsp;</p>
+                          <p style={{paddingLeft: '20px'}}>Sept 2018 to Present</p>
                         </div>
                         <div className="media-body">
                           <a href="https://www.19labs.com/" target="_blank">
@@ -79,7 +79,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p>Jan 2016 to Dec 2018&nbsp;&nbsp;</p>
+                          <p style={{marginRight: '15px'}}>Jan 2016 to Dec 2018</p>
                         </div>
                         <div className="media-body">
                           <a href="https://www.uvic.ca/socialsciences/geography/undergraduate/programs/geomatics/index.php" target="_blank">
@@ -93,7 +93,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p>December 2017 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                          <p style={{paddingLeft: '40px', marginRight: '10px'}}>December 2017</p>
                         </div>
                         <div className="media-body">
                           <a href="https://indrorobotics.ca/training" target="_blank">

@@ -405,14 +405,14 @@ h6 {
   margin-bottom: 0px;
 }
 
-.tabs_inner .tab-content .tab-pane .list li .media .d-flex {
-  padding-right: 100px;
-}
-
 .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 0px;
   padding-top: 20px;
+}
+
+.tabs_inner .tab-content .tab-pane .list li .media .media-body {
+  padding-left: 100px;
 }
 
 .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
