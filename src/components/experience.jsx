@@ -56,7 +56,7 @@ export default class Experience extends Component {
                           <a href="https://indrorobotics.ca" target="_blank">
                             <h4>InDro Robotics & Remote Sensing</h4>
                           </a>
-                          <p>Jr Autonomous Systems Engineer <br />Salt Spring Island, BC</p>
+                          <p>Jr Autonomous Systems Engineer (Coop) <br />Salt Spring Island, BC</p>
                         </div>
                       </div>
                     </li><li>
