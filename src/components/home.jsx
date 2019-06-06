@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
 import Pdf from '../documents/DanaHuget-Resume.pdf'
 import personalImg from './img/personal.jpg'
 
@@ -6,6 +7,10 @@ export default class Home extends Component {
     render() {
       return (
       <div>
+        <Helmet>
+          <title>Dana Huget Home</title>
+          <meta name="description" content="Home page for the Dana Huget Portfolio where you can find contact information, resume, and more!" />
+        </Helmet>
         <section className="home_banner_area">
           <div className="container box_1620">
             <div className="banner_inner d-flex align-items-center">

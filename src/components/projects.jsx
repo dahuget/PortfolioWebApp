@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
 import climateMap from './img/climate-map.PNG'
 import iosApps from './img/ios-apps.png'
 import metroHomicidesMap from './img/metro-homicides-map.png'
@@ -11,6 +12,10 @@ export default class Projects extends Component {
     render() {
       return (
       <div>
+        <Helmet>
+          <title>Dana Huget Projects</title>
+          <meta name="description" content="Personal projects section of the Dana Huget Portfolio" />
+        </Helmet>
         <section className="home_gallery_area p_120">
           <div className="container">
             <div className="main_title">

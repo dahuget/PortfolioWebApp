@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
 
 export default class Footer extends Component {
     render() {
       return (
       <div>
+        <Helmet>
+          <title>Dana Huget Footer</title>
+          <meta name="description" content="Dana Huget Portfolio footer with personal links and attributions" />
+        </Helmet>
         <footer className="footer_area p_foot">
           <div className="container">
             <div className="row footer_inner">

@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
 
 export default class About extends Component {
     render() {
       return (
       <div>
+        <Helmet>
+          <title>Dana Huget About</title>
+          <meta name="description" content="Learn about who Dana Huget is and her core competencies" />
+        </Helmet>
         <section className="welcome_area p_120">
           <div className="container">
             <div className="row welcome_inner">
