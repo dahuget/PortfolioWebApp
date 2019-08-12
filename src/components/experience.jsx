@@ -6,7 +6,7 @@ export default class Experience extends Component {
       return (
       <div>
         <Helmet>
-          <title>Dana Huget Experience</title>
+          <title>Dana Huget Portfolio</title>
           <meta name="description" content="Dana Huget experience and education timelines" />
         </Helmet>
         <section className="mytabs_area p_120">

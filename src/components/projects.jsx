@@ -13,7 +13,7 @@ export default class Projects extends Component {
       return (
       <div>
         <Helmet>
-          <title>Dana Huget Projects</title>
+          <title>Dana Huget Portfolio</title>
           <meta name="description" content="Personal projects section of the Dana Huget Portfolio" />
         </Helmet>
         <section className="home_gallery_area p_120">

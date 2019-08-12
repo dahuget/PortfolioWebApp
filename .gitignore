@@ -17,6 +17,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+REACT_APP_GOOGLE_BOOKS_API_KEY=<yourKey>
 
 npm-debug.log*
 yarn-debug.log*
@@ -26,3 +27,5 @@ yarn-error.log*
 .firebaserc
 
 package-lock.json
+
+src/fire.js

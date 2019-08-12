@@ -6,7 +6,7 @@ export default class About extends Component {
       return (
       <div>
         <Helmet>
-          <title>Dana Huget About</title>
+          <title>Dana Huget Portfolio</title>
           <meta name="description" content="Learn about who Dana Huget is and her core competencies" />
         </Helmet>
         <section className="welcome_area p_120">
@@ -49,7 +49,7 @@ export default class About extends Component {
                 <div className="tools_expert">
                   <div className="skill_main">
                     <div className="skill_item">
-                      <h4>JIRA, Bitbucket, GIT <span className="counter">80</span>%</h4>
+                      <h4>GIT, JIRA, Bitbucket</h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}} />
@@ -57,7 +57,7 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>Java, Javascript <span className="counter">85</span>%</h4>
+                      <h4>Java, Javascript</h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} style={{width: '85%'}} />
@@ -65,7 +65,7 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>System Design & Architecture <span className="counter">70</span>%</h4>
+                      <h4>System Design & Architecture</h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{width: '70%'}} />
@@ -73,15 +73,7 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>Aptitude to Learn New Software, Tools & Languages <span className="counter">100</span>%</h4>
-                      <div className="progress_br">
-                        <div className="progress">
-                          <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{width: '100%'}} />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="skill_item">
-                      <h4>GIS Software <span className="counter">95</span>%</h4>
+                      <h4>GIS Software</h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} style={{width: '95%'}} />
@@ -89,10 +81,18 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>Develop, Manage, Model Spatial Data/Databases <span className="counter">85</span>%</h4>
+                      <h4>Develop, Manage, Model Spatial Data/Databases</h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} style={{width: '85%'}} />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="skill_item">
+                      <h4>Aptitude to Learn New Software, Tools & Languages</h4>
+                      <div className="progress_br">
+                        <div className="progress">
+                          <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{width: '100%'}} />
                         </div>
                       </div>
                     </div>

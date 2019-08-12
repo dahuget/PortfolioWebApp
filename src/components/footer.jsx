@@ -6,11 +6,11 @@ export default class Footer extends Component {
       return (
       <div>
         <Helmet>
-          <title>Dana Huget Footer</title>
+          <title>Dana Huget Portfolio</title>
           <meta name="description" content="Dana Huget Portfolio footer with personal links and attributions" />
         </Helmet>
         <footer className="footer_area p_foot">
-          <div className="container">
+          <div className="container" style={{paddingRight:0, marginRight: 0}}>
             <div className="row footer_inner">
               <div className="col-lg-7">
               </div>
@@ -24,7 +24,7 @@ export default class Footer extends Component {
                     <li><a href="https://www.instagram.com/honeypothogs" target="_blank"><i className="fa fa-instagram" /></a></li>
                   </ul>
                   <p>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                    Made with <i className="fa fa-heart-o" aria-hidden="true" /> and the help of <a href="https://colorlib.com" target="_blank">Colorlib</a> | © All rights reserved
+                    Made with <i className="fa fa-heart-o" aria-hidden="true" /> and the help of <a href="https://colorlib.com" target="_blank" style={{color: '#777777'}}>Colorlib</a> | © All rights reserved
                     {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
                 </aside>
               </div>

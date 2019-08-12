@@ -154,6 +154,15 @@ h6 {
   align-self: center;
 }
 
+.audio {
+  float: right;
+  padding: 12px;
+}
+
+.audio i {
+  padding-right: 6px;
+}
+
 h1 {
   font-size: 36px;
 }

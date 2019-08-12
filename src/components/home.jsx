@@ -1,17 +1,40 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
+import {BrowserRouter} from 'react-router-dom'
+import BrowserRouterLinks from './browser-router-links'
 import Pdf from '../documents/DanaHuget-Resume.pdf'
 import personalImg from './img/personal.jpg'
+import soundFile from '../assets/seriously.mp3'
 
 export default class Home extends Component {
-    render() {
+  constructor(props) {
+    super(props);
+    this.state = { play: true };
+  }
+  play = () => {
+    if (this.state.play) {
+      this.setState({ play: false });
+      this.audio.pause();
+    } else {
+      this.setState({ play: true });
+      this.audio.play();
+    }
+  }
+  render() {
       return (
       <div>
         <Helmet>
-          <title>Dana Huget Home</title>
+          <title>Dana Huget Portfolio</title>
           <meta name="description" content="Home page for the Dana Huget Portfolio where you can find contact information, resume, and more!" />
         </Helmet>
+        {/* <BrowserRouter>
+          <BrowserRouterLinks />
+        </BrowserRouter> */}
         <section className="home_banner_area">
+          <div className="personal_text">
+            <h6 className="audio"><i className={!this.state.play ? "lnr lnr-volume" : "lnr lnr-volume-high"} onClick={this.play} />seriously by shlohmo</h6>
+            <audio ref={(audio) => { this.audio = audio } } src={soundFile} autoPlay loop/>
+          </div>
           <div className="container box_1620">
             <div className="banner_inner d-flex align-items-center">
               <div className="banner_content">
