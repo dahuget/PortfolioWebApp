@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
+import preview from './img/preview.png'
 
 export default class About extends Component {
     render() {
@@ -7,7 +8,9 @@ export default class About extends Component {
       <div>
         <Helmet>
           <title>Dana Huget Portfolio</title>
-          <meta name="description" content="Learn about who Dana Huget is and her core competencies" />
+          <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
+          <meta name="image" content={preview} />
+          <meta name ="url" content="https://danahuget.com"/>
         </Helmet>
         <section className="welcome_area p_120">
           <div className="container">

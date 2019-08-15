@@ -5,6 +5,7 @@ import BrowserRouterLinks from './browser-router-links'
 import Pdf from '../documents/DanaHuget-Resume.pdf'
 import personalImg from './img/personal.jpg'
 import soundFile from '../assets/seriously.mp3'
+import preview from './img/preview.png'
 
 export default class Home extends Component {
   constructor(props) {
@@ -25,7 +26,9 @@ export default class Home extends Component {
       <div>
         <Helmet>
           <title>Dana Huget Portfolio</title>
-          <meta name="description" content="Home page for the Dana Huget Portfolio where you can find contact information, resume, and more!" />
+          <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
+          <meta name="image" content={preview} />
+          <meta name ="url" content="https://danahuget.com"/>
         </Helmet>
         {/* <BrowserRouter>
           <BrowserRouterLinks />

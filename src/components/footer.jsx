@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
+import preview from './img/preview.png'
 
 export default class Footer extends Component {
     render() {
@@ -7,7 +8,9 @@ export default class Footer extends Component {
       <div>
         <Helmet>
           <title>Dana Huget Portfolio</title>
-          <meta name="description" content="Dana Huget Portfolio footer with personal links and attributions" />
+          <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
+          <meta name="image" content={preview} />
+          <meta name ="url" content="https://danahuget.com"/>
         </Helmet>
         <footer className="footer_area p_foot">
           <div className="container" style={{paddingRight:0, marginRight: 0}}>

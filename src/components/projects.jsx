@@ -7,6 +7,7 @@ import vacancyDensityMap from './img/vacancy-density-map.png'
 import motoFlash from './img/moto-flash.png'
 import virtualWorld from './img/virtual-world.png'
 import binoculars from './img/binoculars-icon.png'
+import preview from './img/preview.png'
 
 export default class Projects extends Component {
     render() {
@@ -14,7 +15,9 @@ export default class Projects extends Component {
       <div>
         <Helmet>
           <title>Dana Huget Portfolio</title>
-          <meta name="description" content="Personal projects section of the Dana Huget Portfolio" />
+          <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
+          <meta name="image" content={preview} />
+          <meta name ="url" content="https://danahuget.com"/>
         </Helmet>
         <section className="home_gallery_area p_120">
           <div className="container">
