@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
+import SlideShow from 'react-image-show';
 import climateMap from './img/climate-map.PNG'
 import iosApps from './img/ios-apps.png'
 import metroHomicidesMap from './img/metro-homicides-map.png'
@@ -8,16 +9,40 @@ import motoFlash from './img/moto-flash.png'
 import virtualWorld from './img/virtual-world.png'
 import binoculars from './img/binoculars-icon.png'
 import preview from './img/preview.png'
+import film1 from './img/film-1.png'
+import film2 from './img/film-2.png'
+import film3 from './img/film-3.png'
+import film4 from './img/film-4.png'
+import film5 from './img/film-5.png'
+import film6 from './img/film-6.png'
+import film7 from './img/film-7.png'
+import film8 from './img/film-8.png'
+import film9 from './img/film-9.png'
+import film10 from './img/film-10.png'
+import film11 from './img/film-11.png'
+import film12 from './img/film-12.png'
+import film13 from './img/film-13.png'
+import film14 from './img/film-14.png'
+import film15 from './img/film-15.png'
+import film16 from './img/film-16.png'
+import film17 from './img/film-17.png'
+import film18 from './img/film-18.png'
+import film19 from './img/film-19.png'
+import film20 from './img/film-20.png'
+import film21 from './img/film-21.png'
 
 export default class Projects extends Component {
-    render() {
-      return (
+  render() {
+    const imgArray = [
+      film1, film2, film3, film4, film5, film6, film7, film8, film9, film10, film11, film12, film13, film14, film15, film16, film17, film18, film19, film20, film21
+    ];
+    return (
       <div>
         <Helmet>
           <title>Dana Huget Portfolio</title>
           <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
           <meta name="image" content={preview} />
-          <meta name ="url" content="https://danahuget.com"/>
+          <meta name="url" content="https://danahuget.com" />
         </Helmet>
         <section className="home_gallery_area p_120">
           <div className="container">
@@ -48,7 +73,7 @@ export default class Projects extends Component {
                     <img className="img-fluid" src={motoFlash} alt />
                     <a className="light" href={motoFlash}><img src={binoculars} alt /></a>
                   </div>
-                  <div className="g_item_text"> 
+                  <div className="g_item_text">
                     <a href="https://github.com/dahuget/2DFlashAnimation" target="_blank">
                       <h4>2D Flash Animation</h4>
                     </a>
@@ -115,6 +140,22 @@ export default class Projects extends Component {
             </div>
             <div className="more_btn">
               <a className="main_btn" href="https://github.com/dahuget" target="_blank">More on Github</a>
+            </div>
+            <div>
+              <SlideShow
+                images={imgArray}
+                width="920px"
+                imagesWidth="800px"
+                imagesHeight="450px"
+                imagesHeightMobile="56vw"
+                thumbnailsWidth="920px"
+                thumbnailsHeight="12vw"
+                indicators thumbnails fixedImagesHeight
+              />
+              <div className="gallery-text">
+                <h4>Film Photography</h4>
+                <p>Vanvouver Isl, Edmonton, Austin, Quadra Isl, Montreal</p>
+              </div>
             </div>
           </div>
         </section>

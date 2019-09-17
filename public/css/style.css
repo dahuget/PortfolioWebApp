@@ -629,4 +629,19 @@ h6 {
   padding-bottom: 5px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.more_btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.gallery-text h4 {
+  color: #222222;
+  font-size: 21px;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.gallery-text p {
+  text-align: center;
+}
