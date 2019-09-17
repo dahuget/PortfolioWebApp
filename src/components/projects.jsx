@@ -9,6 +9,8 @@ import motoFlash from './img/moto-flash.png'
 import virtualWorld from './img/virtual-world.png'
 import binoculars from './img/binoculars-icon.png'
 import preview from './img/preview.png'
+import film00 from './img/film-00.png'
+import film0 from './img/film-0.png'
 import film1 from './img/film-1.png'
 import film2 from './img/film-2.png'
 import film3 from './img/film-3.png'
@@ -34,7 +36,7 @@ import film21 from './img/film-21.png'
 export default class Projects extends Component {
   render() {
     const imgArray = [
-      film1, film2, film3, film4, film5, film6, film7, film8, film9, film10, film11, film12, film13, film14, film15, film16, film17, film18, film19, film20, film21
+      film00, film0, film1, film2, film3, film4, film5, film6, film7, film8, film9, film10, film11, film12, film13, film14, film15, film16, film17, film18, film19, film20, film21
     ];
     return (
       <div>
