@@ -14,11 +14,11 @@ export default class Home extends Component {
   }
   play = () => {
     if (this.state.play) {
-      this.setState({ play: false });
-      this.audio.pause();
-    } else {
       this.setState({ play: true });
       this.audio.play();
+    } else {
+      this.setState({ play: false });
+      this.audio.pause();
     }
   }
   render() {
@@ -35,7 +35,7 @@ export default class Home extends Component {
         </BrowserRouter> */}
         <section className="home_banner_area">
           <div className="personal_text">
-            <h6 className="audio"><i className={!this.state.play ? "lnr lnr-volume" : "lnr lnr-volume-high"} onClick={this.play} />seriously by shlohmo</h6>
+            <h6 className="audio"><i className={!this.state.play ? "lnr lnr-volume": "lnr lnr-volume-high"} onClick={this.play} />seriously by shlohmo</h6>
             <audio ref={(audio) => { this.audio = audio } } src={soundFile} autoPlay loop/>
           </div>
           <div className="container box_1620">
