@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
-import SlideShow from 'react-image-show';
+import SlideShow from 'react-image-show'
+import ReactPlayer from 'react-player'
 import climateMap from './img/climate-map.PNG'
 import iosApps from './img/ios-apps.png'
 import metroHomicidesMap from './img/metro-homicides-map.png'
@@ -142,6 +143,13 @@ export default class Projects extends Component {
             </div>
             <div className="more_btn">
               <a className="main_btn" href="https://github.com/dahuget" target="_blank">More on Github</a>
+            </div>
+            <div style={{display: "none"}}>
+              <ReactPlayer url='https://youtu.be/rqq_HcngMFQ' playing />
+              <div className="gallery-text">
+                <h4>AI Intake Web App</h4>
+                <p>Demo of GoLang app integrated with patient triage API</p>
+              </div>
             </div>
             <div>
               <SlideShow
