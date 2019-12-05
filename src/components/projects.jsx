@@ -105,7 +105,7 @@ export default class Projects extends Component {
                     <a className="light" href={vacancyDensityMap}><img src={binoculars} alt /></a>
                   </div>
                   <div className="g_item_text">
-                    <a href="https://dahuget.home.blog/2019/05/27/analyzing-canadian-census-data/" target="_blank">
+                    <a href="https://danahuget.home.blog/2019/05/27/analyzing-canadian-census-data/" target="_blank">
                       <h4>How To Analyze Canadian Census Data Blog</h4>
                     </a>
                     <p>WordPress, R</p>
@@ -119,7 +119,7 @@ export default class Projects extends Component {
                     <a className="light" href={metroHomicidesMap}><img src={binoculars} alt /></a>
                   </div>
                   <div className="g_item_text">
-                    <a href="https://dahuget.home.blog/2019/05/27/analyzing-homicides-in-the-greater-vancouver-area/" target="_blank">
+                    <a href="https://danahuget.home.blog/2019/05/27/analyzing-homicides-in-the-greater-vancouver-area/" target="_blank">
                       <h4>Crime Point Pattern Analysis Blog</h4>
                     </a>
                     <p>WordPress, R</p>

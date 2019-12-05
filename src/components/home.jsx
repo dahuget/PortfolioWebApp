@@ -58,7 +58,7 @@ export default class Home extends Component {
                       <ul className="list personal_social">
                         <li><a href="https://www.linkedin.com/in/dana-huget" target="_blank"><i className="fa fa-linkedin" /></a></li>
                         <li><a href="https://github.com/dahuget" target="_blank"><i className="fa fa-github" /></a></li>
-                        <li><a href="https://dahuget.home.blog" target="_blank"><i className="fa fa-wordpress" /></a></li>
+                        <li><a href="https://danahuget.home.blog" target="_blank"><i className="fa fa-wordpress" /></a></li>
                         <li><a href="https://www.instagram.com/honeypothogs" target="_blank"><i className="fa fa-instagram" /></a></li>
                       </ul>
                     </div>
