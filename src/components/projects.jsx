@@ -47,14 +47,14 @@ export default class Projects extends Component {
           <meta name="image" content={preview} />
           <meta name="url" content="https://danahuget.com" />
         </Helmet>
-        <section className="home_gallery_area p_120">
+        <section className="home_gallery_area">
           <div className="container">
             <div className="main_title">
               <h2>Personal Projects</h2>
               <p><i>(Click titles to link to Github source code)</i></p>
             </div>
           </div>
-          <div className="container">
+          <div className="container projects_container">
             <div className="gallery_f_inner row imageGallery1">
               <div className="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
                 <div className="h_gallery_item">

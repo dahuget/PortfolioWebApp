@@ -519,6 +519,21 @@ h6 {
 
 /* Gallery Area css
 ============================================================================================ */
+.home_gallery_area {
+  padding-bottom: 60px;
+}
+
+.home_gallery_area .container .main_title {
+  margin-bottom: 25px;
+}
+
+.projects_container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+
 .gallery_f_inner {
   margin-bottom: -45px;
 }
