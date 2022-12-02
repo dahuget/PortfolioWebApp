@@ -43,7 +43,7 @@ export default class Home extends Component {
               <div className="banner_content">
                 <div className="media">
                   <div className="d-flex">
-                    <img src={personalImg} alt />
+                    <img src={personalImg} />
                   </div>
                   <div className="media-body">
                     <div className="personal_text">

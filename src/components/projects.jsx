@@ -33,11 +33,13 @@ import film18 from './img/film-18.png'
 import film19 from './img/film-19.png'
 import film20 from './img/film-20.png'
 import film21 from './img/film-21.png'
+import film22 from './img/film-22.png'
+import film23 from './img/film-23.png'
 
 export default class Projects extends Component {
   render() {
     const imgArray = [
-      film00, film0, film1, film2, film3, film4, film5, film6, film7, film8, film9, film10, film11, film12, film13, film14, film15, film16, film17, film18, film19, film20, film21
+      film00, film0, film1, film2, film3, film4, film5, film6, film7, film8, film9, film10, film11, film12, film13, film14, film15, film16, film17, film18, film19, film20, film21, film22, film23
     ];
     return (
       <div>
@@ -59,8 +61,8 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={climateMap} alt />
-                    <a className="light" href={climateMap}><img src={binoculars} alt /></a>
+                    <img className="img-fluid" src={climateMap} />
+                    <a className="light" href={climateMap}><img src={binoculars} /></a>
                   </div>
                   <div className="g_item_text">
                     <a href="https://github.com/dahuget/ClimateWebApp" target="_blank">
@@ -73,8 +75,8 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={motoFlash} alt />
-                    <a className="light" href={motoFlash}><img src={binoculars} alt /></a>
+                    <img className="img-fluid" src={motoFlash} />
+                    <a className="light" href={motoFlash}><img src={binoculars} /></a>
                   </div>
                   <div className="g_item_text">
                     <a href="https://github.com/dahuget/2DFlashAnimation" target="_blank">
@@ -87,8 +89,8 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={virtualWorld} alt />
-                    <a className="light" href={virtualWorld}><img src={binoculars} alt /></a>
+                    <img className="img-fluid" src={virtualWorld} />
+                    <a className="light" href={virtualWorld}><img src={binoculars} /></a>
                   </div>
                   <div className="g_item_text">
                     <a href="https://github.com/dahuget/VirtualWorld" target="_blank">
@@ -101,8 +103,8 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand creative print">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={vacancyDensityMap} alt />
-                    <a className="light" href={vacancyDensityMap}><img src={binoculars} alt /></a>
+                    <img className="img-fluid" src={vacancyDensityMap} />
+                    <a className="light" href={vacancyDensityMap}><img src={binoculars} /></a>
                   </div>
                   <div className="g_item_text">
                     <a href="https://danahuget.home.blog/2019/05/27/analyzing-canadian-census-data/" target="_blank">
@@ -115,8 +117,8 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand manipul design">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={metroHomicidesMap} alt />
-                    <a className="light" href={metroHomicidesMap}><img src={binoculars} alt /></a>
+                    <img className="img-fluid" src={metroHomicidesMap} />
+                    <a className="light" href={metroHomicidesMap}><img src={binoculars} /></a>
                   </div>
                   <div className="g_item_text">
                     <a href="https://danahuget.home.blog/2019/05/27/analyzing-homicides-in-the-greater-vancouver-area/" target="_blank">
@@ -129,8 +131,8 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand creative">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={iosApps} alt />
-                    <a className="light" href={iosApps}><img src={binoculars} alt /></a>
+                    <img className="img-fluid" src={iosApps} />
+                    <a className="light" href={iosApps}><img src={binoculars} /></a>
                   </div>
                   <div className="g_item_text">
                     <a href="https://github.com/dahuget/repodanes/tree/master/iOS-apps" target="_blank">
@@ -144,7 +146,7 @@ export default class Projects extends Component {
             <div className="more_btn">
               <a className="main_btn" href="https://github.com/dahuget" target="_blank">More on Github</a>
             </div>
-            <div style={{display: "none"}}>
+            <div style={{ display: "none" }}>
               <ReactPlayer url='https://youtu.be/rqq_HcngMFQ' playing />
               <div className="gallery-text">
                 <h4>AI Intake Web App</h4>

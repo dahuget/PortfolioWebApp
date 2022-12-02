@@ -27,7 +27,7 @@ export default class About extends Component {
                     <div className="col-md-4">
                       <div className="wel_item">
                         <i className="lnr lnr-database" />
-                        <h4>Android</h4>
+                        <h4>Web+Mobile</h4>
                         <p>Development</p>
                       </div>
                     </div>
@@ -52,15 +52,15 @@ export default class About extends Component {
                 <div className="tools_expert">
                   <div className="skill_main">
                     <div className="skill_item">
-                      <h4>GIT, JIRA, Bitbucket 3 years</h4>
+                      <h4>GIT, JIRA, Bitbucket 5 years</h4>
                       <div className="progress_br">
                         <div className="progress">
-                          <div className="progress-bar" role="progressbar" aria-valuenow={6} aria-valuemin={0} aria-valuemax={9} style={{width: '62.5%'}} />
+                          <div className="progress-bar" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={9} style={{width: '100%'}} />
                         </div>
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>Java, Javascript 4.5 years</h4>
+                      <h4>Java, Javascript 5 years</h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={9} style={{width: '100%'}} />
@@ -76,10 +76,10 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>GIS Software 3.5 years</h4>
+                      <h4>GIS Software 5 years</h4>
                       <div className="progress_br">
                         <div className="progress">
-                          <div className="progress-bar" role="progressbar" aria-valuenow={7} aria-valuemin={0} aria-valuemax={9} style={{width: '75%'}} />
+                          <div className="progress-bar" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={9} style={{width: '100%'}} />
                         </div>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>Aptitude to Learn New Software, Tools & Languages 4.5 years</h4>
+                      <h4>Aptitude to Learn New Software, Tools & Languages 5 years</h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={9} style={{width: '100%'}} />

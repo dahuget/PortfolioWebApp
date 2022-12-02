@@ -30,7 +30,21 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p style={{paddingLeft: '20px'}}>Sept 2018 to Present</p>
+                          <p style={{paddingLeft: '20px'}}>July 2021 to Present</p>
+                        </div>
+                        <div className="media-body">
+                          <a href="https://www.trailmarksys.com/" target="_blank">
+                            <h4>Trailmark Systems</h4>
+                          </a>
+                          <p>Web & GIS Developer <br />Victoria, BC</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <span />
+                      <div className="media">
+                        <div className="d-flex">
+                          <p style={{paddingLeft: '20px'}}>Sept 2018 to July 2021</p>
                         </div>
                         <div className="media-body">
                           <a href="https://www.19labs.com/" target="_blank">
