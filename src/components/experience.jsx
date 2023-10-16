@@ -30,7 +30,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p style={{paddingLeft: '20px'}}>July 2021 to Present</p>
+                          <p className="date-shift">Jun 2021 - Oct 2023</p>
                         </div>
                         <div className="media-body">
                           <a href="https://www.trailmarksys.com/" target="_blank">
@@ -44,7 +44,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p style={{paddingLeft: '20px'}}>Sept 2018 to July 2021</p>
+                          <p className="date-shift">Sep 2018 - May 2021</p>
                         </div>
                         <div className="media-body">
                           <a href="https://www.19labs.com/" target="_blank">
@@ -58,7 +58,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p>April 2018 to Sept 2018</p>
+                          <p className="date-shift">Apr 2018 - Sep 2018</p>
                         </div>
                         <div className="media-body">
                           <a href="https://www.19labs.com/" target="_blank">
@@ -72,7 +72,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p>Sept 2017 to Dec 2017</p>
+                          <p className="date-shift">Sep 2017 - Dec 2017</p>
                         </div>
                         <div className="media-body">
                           <a href="https://indrorobotics.ca" target="_blank">
@@ -85,7 +85,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p>Sept 2014 to Dec 2015</p>
+                          <p className="date-shift">Sep 2014 - Dec 2015</p>
                         </div>
                         <div className="media-body">
                           <h4>Apollo Machine & Welding</h4>
@@ -101,7 +101,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p style={{marginRight: '15px'}}>Jan 2016 to Dec 2018</p>
+                          <p className="date-shift">Jan 2016 - Dec 2018</p>
                         </div>
                         <div className="media-body">
                           <a href="https://www.uvic.ca/socialsciences/geography/undergraduate/programs/geomatics/index.php" target="_blank">
@@ -129,7 +129,7 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p>Jan 2012 to April 2012</p>
+                          <p className="date-shift">Jan 2012 - Apr 2012</p>
                         </div>
                         <div className="media-body">
                           <a href="https://www.concordia.ca" target="_blank">
@@ -143,13 +143,13 @@ export default class Experience extends Component {
                       <span />
                       <div className="media">
                         <div className="d-flex">
-                          <p>Sept 2010 to Dec 2011</p>
+                          <p className="date-shift">Sep 2010 - Dec 2011</p>
                         </div>
                         <div className="media-body">
                           <a href="https://www.macewan.ca/English" target="_blank">
                             <h4>Macewan University</h4>
                           </a>
-                          <p>English <br />Edmonton, AB</p>
+                          <p>English & Classics<br />Edmonton, AB</p>
                         </div>
                       </div>
                     </li>

@@ -94,7 +94,7 @@ h6 {
 }
 
 .main_title h2 {
-  font-family: "Heebo", sans-serif;
+  font-family: 'BostonAngel';
   font-size: 36px;
   color: #222222;
   margin-bottom: 15px;
@@ -195,13 +195,13 @@ h6 {
 ============================================================================================ */
 .main_btn {
   display: inline-block;
-  background-image: linear-gradient(to right, #766dff 0%, #BE30FE 48%, #766dff 100%);
+  background-image: linear-gradient(to right, #7DB86B 0%, #44725D 100%);
   background-size: 200% auto;
   padding: 0px 40px;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 48px;
   border-radius: 0px;
   outline: none !important;
@@ -215,6 +215,7 @@ h6 {
 .main_btn:hover {
   background-position: right center;
   color: #fff;
+  text-shadow: #FFF 0 0 10px;
 }
 
 
@@ -222,7 +223,7 @@ h6 {
 ============================================================================================ */
 .welcome_text h4 {
   color: #222222;
-  font-family: "Heebo", sans-serif;
+  font-family: 'BostonAngel';
   font-size: 36px;
   margin-bottom: 18px;
   text-transform: uppercase;
@@ -230,7 +231,7 @@ h6 {
 
 .welcome_text p {
   max-width: 495px;
-  font-family: "Roboto", sans-serif;
+  font-family: "BostonAngel";
   margin-bottom: 40px;
 }
 
@@ -241,17 +242,17 @@ h6 {
 }
 
 .wel_item i {
-  font-size: 24px;
-  background: linear-gradient(to right, #766dff 0%, #BE30FE 70%);
+  font-size: 42px;
+  background-color: #7DB86B;
+  -webkit-text-stroke: 1px #7DB86B;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .wel_item h4 {
   font-size: 24px;
-  font-family: "Heebo", sans-serif;
-  font-weight: bold;
-  color: #222222;
+  font-family: 'BostonAngel';
+  color: #EB9DA9;
   margin-bottom: 5px;
   margin-top: 10px;
 }
@@ -303,17 +304,17 @@ h6 {
   border-radius: 5px;
   vertical-align: middle;
   align-self: center;
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #BE30FE 100%);
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #BE30FE 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #BE30FE 100%);
+  background-image: -moz-linear-gradient(0deg, #7DB86B 0%, #44725D 100%);
+  background-image: -webkit-linear-gradient(0deg, #7DB86B 0%, #44725D 100%);
+  background-image: -ms-linear-gradient(0deg, #7DB86B 0%, #44725D 100%);
 }
 
 .personal_text .personal_social li:hover a {
-  color: #766dff;
+  color: #7DB86B;
 }
 
 .personal_text .basic_info li a:hover {
-  color: #766dff;
+  color: #7DB86B;
 }
 
 /* End Welcome Area css
@@ -344,22 +345,23 @@ h6 {
   border-radius: 5px;
   padding: 0px 40px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
   color: #222222;
   font-family: "Roboto", sans-serif;
-  border: 1px solid #766dff;
+  border: 1px solid #7DB86B;
   background: rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease-in-out;
 }
 
 .tabs_inner .nav.nav-tabs li a.active {
-  background-image: linear-gradient(to right, #766dff 0%, #BE30FE 100%);
-  color: #fff;
+  background-image: linear-gradient(to right, #7DB86B 0%, #44725D 100%);
+  color: #FFF;
 }
 
 .tabs_inner .nav.nav-tabs li a:hover {
-  background-image: linear-gradient(to right, #766dff 0%, #BE30FE 100%);
-  color: #fff;
+  background-image: linear-gradient(to right, #7DB86B 0%, #44725D 100%);
+  color: #FFF;
+  text-shadow: #FFF 0 0 10px;
 }
 
 .tabs_inner .tab-content .tab-pane .list {
@@ -376,7 +378,7 @@ h6 {
   width: 5px;
   background: rgba(255, 255, 255, 0.2);
   position: absolute;
-  left: 46%;
+  left: 50%;
   transform: translateX(-50%);
   top: -5px;
 }
@@ -393,7 +395,7 @@ h6 {
   display: block;
   background: rgba(255, 255, 255, 0.2);
   position: absolute;
-  left: 46%;
+  left: 50%;
   top: 30px;
   transform: translateX(-50%);
 }
@@ -425,7 +427,7 @@ h6 {
 }
 
 .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
-  color: #fff;
+  color: #EB9DA9;
   font-size: 21px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -438,25 +440,25 @@ h6 {
 }
 
 .tabs_inner .tab-content .tab-pane .list li .media .media-body h4:hover {
-  color: #766dff;
+  color: #7DB86B;
 }
 
 /* Personal Profile Area css
 ============================================================================================ */
 .personal_text h6 {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
+  font-family: 'BostonAngel';
+  font-weight: 700;
+  /* text-transform: uppercase; */
   letter-spacing: 2.1px;
-  font-weight: normal;
   margin-bottom: 12px;
   color: #222222;
 }
 
 .personal_text h4 {
   font-size: 16px;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'BostonAngel';
+  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #222222;
@@ -464,9 +466,11 @@ h6 {
 
 .personal_text h3 {
   font-size: 48px;
+  font-family: 'BostonAngel';
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #222222;
+  color: #EB9DA9;
+  text-shadow: 2px 2px 5px #ffe20f;
 }
 
 .personal_text .basic_info li {
@@ -486,7 +490,8 @@ h6 {
   top: 50%;
   transform: translateY(-50%);
   font-size: 20px;
-  color: #766dff;
+  color: #7DB86B;
+  -webkit-text-stroke: 1px;
 }
 
 .personal_text .basic_info li:last-child {
@@ -525,6 +530,7 @@ h6 {
 
 .home_gallery_area .container .main_title {
   margin-bottom: 25px;
+  margin-top: 50px;
 }
 
 .projects_container {
@@ -556,9 +562,9 @@ h6 {
   height: 100%;
   left: 0px;
   top: 0px;
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #BE30FE 100%);
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #BE30FE 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #BE30FE 100%);
+  /* background-image: -moz-linear-gradient(0deg, #7DB86B 0%, #44725D 100%);
+  background-image: -webkit-linear-gradient(0deg, #7DB86B 0%, #44725D 100%);
+  background-image: -ms-linear-gradient(0deg, #7DB86B 0%, #44725D 100%); */
   position: absolute;
   opacity: 0;
   transition: all 300ms ease;
@@ -579,10 +585,11 @@ h6 {
 }
 
 .h_gallery_item .g_item_text h4 {
-  color: #222222;
+  color: #EB9DA9;
   font-size: 21px;
   margin-top: 22px;
   transition: all 300ms linear 0s;
+  font-family: 'BostonAngel';
 }
 
 .h_gallery_item .g_item_text p {
@@ -598,7 +605,7 @@ h6 {
 }
 
 .h_gallery_item:hover .g_item_text h4:hover {
-  color: #766dff;
+  color: #7DB86B;
 }
 
 .more_btn {
@@ -636,7 +643,7 @@ h6 {
 }
 
 .social_widget .list li:hover a {
-  color: #766dff;
+  color: #7DB86B;
 }
 
 .p_foot {
@@ -649,9 +656,9 @@ h6 {
   margin-bottom: 30px;
 }
 
-
 .gallery-text h4 {
-  color: #222222;
+  color: #EB9DA9;
+  font-family: 'BostonAngel';
   font-size: 21px;
   margin-top: 22px;
   text-align: center;
@@ -659,4 +666,34 @@ h6 {
 
 .gallery-text p {
   text-align: center;
+}
+
+.slide-show .ss-fixed-height .ss-slide-image>img {
+  border-radius: 12px;
+}
+
+.slide-show .ss-thumbnail>img.ss-active {
+  outline: 3px solid #7DB86B !important;
+}
+
+.home_banner_area img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 12px;
+}
+
+iframe {
+  border-radius: 12px;
+}
+
+polyline {
+  fill: #7DB86B;
+}
+
+.slide-show .ss-indicators>div>span.ss-active {
+  background-color: #7DB86B !important;
+}
+
+.date-shift {
+  padding-left: 30px;
 }

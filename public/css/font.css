@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'BostonAngel':
+  src: local('BostonAngel'),
+       url('./fonts/Boston Angel Regular.woff') format('woff'),
+       url('./fonts/Boston Angel Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'BostonAngelBold':
+  src: local('BostonAngelBold'),
+       url('./fonts/Boston Angel Bold.woff') format('woff'),
+       url('./fonts/Boston Angel Bold.woff2') format('woff2');
+}

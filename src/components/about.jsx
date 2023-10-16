@@ -26,8 +26,8 @@ export default class About extends Component {
                   <div className="row">
                     <div className="col-md-4">
                       <div className="wel_item">
-                        <i className="lnr lnr-database" />
-                        <h4>Web+Mobile</h4>
+                        <i className="lnr lnr-laptop-phone" />
+                        <h4>Web+GIS</h4>
                         <p>Development</p>
                       </div>
                     </div>
@@ -52,7 +52,7 @@ export default class About extends Component {
                 <div className="tools_expert">
                   <div className="skill_main">
                     <div className="skill_item">
-                      <h4>GIT, JIRA, Bitbucket 5 years</h4>
+                      <h4>GIT, JIRA, GitHub, Bitbucket <span style={{color: '#EB9DA9'}}>5 years</span></h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={9} style={{width: '100%'}} />
@@ -60,7 +60,15 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>Java, Javascript 5 years</h4>
+                      <h4>Java, Node JS, PHP, Kotlin <span style={{color: '#EB9DA9'}}>2.5 years</span></h4>
+                      <div className="progress_br">
+                        <div className="progress">
+                          <div className="progress-bar" role="progressbar" aria-valuenow={4.5} aria-valuemin={0} aria-valuemax={9} style={{width: '50%'}} />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="skill_item">
+                      <h4>Javascript, CSS <span style={{color: '#EB9DA9'}}>5 years</span></h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={9} style={{width: '100%'}} />
@@ -68,7 +76,7 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>System Design & Architecture 3.5 years</h4>
+                      <h4>System Design & Architecture <span style={{color: '#EB9DA9'}}>3.5 years</span></h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={7} aria-valuemin={0} aria-valuemax={9} style={{width: '75%'}} />
@@ -76,15 +84,7 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>GIS Software 5 years</h4>
-                      <div className="progress_br">
-                        <div className="progress">
-                          <div className="progress-bar" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={9} style={{width: '100%'}} />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="skill_item">
-                      <h4>Develop, Manage, Model Spatial Data/Databases 3 years</h4>
+                      <h4>Develop, Manage, Model Spatial Data/Databases <span style={{color: '#EB9DA9'}}>3 years</span></h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={6} aria-valuemin={0} aria-valuemax={9} style={{width: '62.5%'}} />
@@ -92,7 +92,7 @@ export default class About extends Component {
                       </div>
                     </div>
                     <div className="skill_item">
-                      <h4>Aptitude to Learn New Software, Tools & Languages 5 years</h4>
+                      <h4>Aptitude to Learn New Software, Tools & Languages <span style={{color: '#EB9DA9'}}>5 years</span></h4>
                       <div className="progress_br">
                         <div className="progress">
                           <div className="progress-bar" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={9} style={{width: '100%'}} />
