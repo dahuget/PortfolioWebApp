@@ -1,6 +1,10 @@
-import firebase from 'firebase'
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-var firebaseConfig = {
+// Your web app's Firebase configuration
+const firebaseConfig = {
   apiKey: "AIzaSyAqwkiUakt2JyIL-gpZbfsTWiB1j-Ki3jQ",
   authDomain: "danahuget-portfolio.firebaseapp.com",
   databaseURL: "https://danahuget-portfolio.firebaseio.com",
@@ -11,5 +15,4 @@ var firebaseConfig = {
 };
 
 // Initialize Firebase
-var fire = firebase.initializeApp(firebaseConfig);
-export default fire;
+const app = initializeApp(firebaseConfig);

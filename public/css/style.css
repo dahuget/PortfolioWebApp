@@ -117,6 +117,7 @@ h6 {
   position: relative;
   z-index: 1;
   background-image: url("../img/bg-blur.png");
+  /* background-image: url("../img/bg-leopard.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -323,6 +324,8 @@ h6 {
 ============================================================================================ */
 .mytabs_area {
   background-image: url("../img/bg-flowers-blur.png");
+  /* background-image: url("../img/bg-leopard-blur.png"); */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
