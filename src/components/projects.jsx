@@ -47,7 +47,7 @@ export default class Projects extends Component {
           <title>Dana Huget Portfolio</title>
           <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
           <meta name="image" content={preview} />
-          <meta name="url" content="https://danahuget.com" />
+          <meta name="url" content="https://danaaliyah.com" />
         </Helmet>
         <section className="home_gallery_area">
           <div className="container">

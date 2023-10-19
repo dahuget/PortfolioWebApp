@@ -10,7 +10,7 @@ export default class Footer extends Component {
           <title>Dana Huget Portfolio</title>
           <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
           <meta name="image" content={preview} />
-          <meta name ="url" content="https://danahuget.com"/>
+          <meta name ="url" content="https://danaaliyah.com"/>
         </Helmet>
         <footer className="footer_area p_foot">
           <div className="container" style={{paddingRight:0, marginRight: 0}}>
@@ -19,7 +19,7 @@ export default class Footer extends Component {
               </div>
               <div className="col-lg-5">
                 <aside className="f_widget social_widget">
-                  <ul className="list">You oughta connect with me &nbsp;|&nbsp;&nbsp;
+                  <ul className="list">connect with me &nbsp;|&nbsp;&nbsp;
                     <li><a href="mailto: danaliyahuget@gmail.com"><i className="fa fa-envelope" /></a></li>
                     <li><a href="https://www.linkedin.com/in/dana-huget" target="_blank"><i className="fa fa-linkedin" /></a></li>
                     <li><a href="https://github.com/dahuget" target="_blank"><i className="fa fa-github" /></a></li>

@@ -28,11 +28,11 @@ export default class Home extends Component {
           <title>Dana Huget Portfolio</title>
           <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
           <meta name="image" content={preview} />
-          <meta name ="url" content="https://danahuget.com"/>
+          <meta name ="url" content="https://danaaliyah.com"/>
         </Helmet>
         <section className="home_banner_area">
           <div className="personal_text">
-            <h6 className="audio"><i className={!this.state.play ? "lnr lnr-volume": "lnr lnr-volume-high"} onClick={this.play} />blow away by george harrison</h6>
+            <h6 className="audio"><i className={!this.state.play ? "lnr lnr-volume": "lnr lnr-volume-high"} onClick={this.play} />blow away by george harrison <br/>background images <a style={{ color: 'inherit' }} href="https://www.instagram.com/mitchellvilla/">@MitchellVilla</a></h6>
             <audio id="song" ref={(audio) => { this.audio = audio } } src={soundFile} autoPlay loop/>
           </div>
           <div className="container box_1620">

@@ -116,7 +116,8 @@ h6 {
 .home_banner_area {
   position: relative;
   z-index: 1;
-  background-image: url("../img/bg-blur.png");
+  /* background-image: url("../img/bg-blur.png"); */
+  background-image: url("../img/bg-banquet.png");
   /* background-image: url("../img/bg-leopard.png"); */
   background-position: center;
   background-repeat: no-repeat;
@@ -156,12 +157,16 @@ h6 {
 }
 
 .audio {
-  float: right;
+  text-align: right;
   padding: 12px;
+  color: #EB9DA9 !important;
+  text-shadow: 2px 2px 5px black;
 }
 
 .audio i {
   padding-right: 6px;
+  cursor: pointer;
+  -webkit-text-stroke: 0.75px;
 }
 
 h1 {
@@ -323,7 +328,10 @@ h6 {
 /* My Tabs Area css
 ============================================================================================ */
 .mytabs_area {
-  background-image: url("../img/bg-flowers-blur.png");
+  /* background-image: url("../img/bg-flowers-blur.png"); */
+  background-image: url("../img/bg-banquet-7.png");
+  /* background-image: url("../img/bg-banquet-11.png"); */
+  background-image: url("../img/bg-banquet-6.png");
   /* background-image: url("../img/bg-leopard-blur.png"); */
   background-position: center;
   background-repeat: no-repeat;
@@ -423,6 +431,8 @@ h6 {
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 0px;
   padding-top: 20px;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px black;
 }
 
 .tabs_inner .tab-content .tab-pane .list li .media .media-body {
@@ -435,11 +445,14 @@ h6 {
   text-transform: uppercase;
   margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
+  text-shadow: 2px 2px 5px black;
 }
 
 .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 0px;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px black;
 }
 
 .tabs_inner .tab-content .tab-pane .list li .media .media-body h4:hover {
@@ -452,7 +465,6 @@ h6 {
   font-size: 14px;
   font-family: 'BostonAngel';
   font-weight: 700;
-  /* text-transform: uppercase; */
   letter-spacing: 2.1px;
   margin-bottom: 12px;
   color: #222222;
@@ -698,5 +710,10 @@ polyline {
 }
 
 .date-shift {
-  padding-left: 30px;
+  padding-left: 20px;
+}
+
+.f_widget {
+  text-align: right;
+  padding-right: 15px;
 }
