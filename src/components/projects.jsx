@@ -142,10 +142,10 @@ export default class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-2 col-sm-4 brand manipul design"></div>
-              <div className="col-lg-8 col-md-8 col-sm-6 brand creative">
-                <div className="h_gallery_item" style={{ marginLeft: '2.75rem'}}>
-                  <div>
+              <div className="col-lg-4 col-md-4 col-sm-6 brand manipul design"></div>
+              <div className="col-lg-4 col-md-4 col-sm-6 brand creative">
+                <div className="h_gallery_item">
+                  <div className="g_img_item g_video_item">
                     <ReactPlayer url='https://youtu.be/rqq_HcngMFQ' />
                   </div>
                   <div className="g_item_text">
@@ -154,7 +154,7 @@ export default class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-2 col-sm-4 brand manipul design"></div>
+              <div className="col-lg-4 col-md-4 col-sm-6 brand manipul design"></div>
             </div>
             <div className="more_btn">
               <a className="main_btn" href="https://github.com/dahuget" target="_blank">More on Github</a>

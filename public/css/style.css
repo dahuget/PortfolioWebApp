@@ -51,6 +51,12 @@ Table of Content:
   padding: 0px;
 }
 
+#myTabContent .list {
+  /* background-color: rgb(255, 255, 255, 0.4); */
+  /* background-color: rgb(125 184 107 / 40%); */
+  background-color: rgb(68 114 93 / 40%);
+}
+
 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -376,7 +382,7 @@ h6 {
 }
 
 .tabs_inner .tab-content .tab-pane .list {
-  max-width: 460px;
+  max-width: 480px;
   margin: auto;
   position: relative;
   padding-top: 40px;
@@ -716,4 +722,9 @@ polyline {
 .f_widget {
   text-align: right;
   padding-right: 15px;
+}
+
+.g_video_item div {
+  width: 100% !important;
+  height: 100% !important;
 }
