@@ -44,10 +44,22 @@ export default class Projects extends Component {
     return (
       <div>
         <Helmet>
-          <title>Dana Huget Portfolio</title>
-          <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
+          <title>Dana Huget Portfolio | Software Developer</title>
+          <meta name="description" content="Check out the projects showcasing the work of GIS and full-stack web software developer Dana Huget" />
           <meta name="image" content={preview} />
-          <meta name="url" content="https://danaaliyah.com" />
+          <meta name ="url" content="https://danaaliyah.com" />
+          <link rel="canonical" href="https://danaaliyah.com/" />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:url" content="https://danaaliyah.com" />
+          <meta property="og:title" content="Dana Huget profile page" />
+          <meta property="og:description" content="Check out the projects showcasing the work of GIS and full-stack web software developer Dana Huget" />
+          <meta property="og:site_name" content="Dana Huget Portfolio | Software Developer" />
+          <meta property="og:type" content="profile" />
+          <meta property="profile:first_name" content="Dana" />
+          <meta property="profile:last_name" content="Huget" />
+          <meta property="og:locale" content="en_CA" />
+          <meta property="og:image" content={preview} />
+          <meta property="og:image:type" content="image/png" />
         </Helmet>
         <section className="home_gallery_area">
           <div className="container">
@@ -61,7 +73,7 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={climateMap} />
+                    <img className="img-fluid" src={climateMap} alt='Climate Map' />
                     {/* <a className="light" href={climateMap}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
@@ -75,7 +87,7 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={motoFlash} />
+                    <img className="img-fluid" src={motoFlash} alt='2D Flash Animation' />
                     {/* <a className="light" href={motoFlash}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
@@ -89,7 +101,7 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={virtualWorld} />
+                    <img className="img-fluid" src={virtualWorld} alt='3D Virtual World' />
                     {/* <a className="light" href={virtualWorld}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
@@ -103,7 +115,7 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand creative print">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={vacancyDensityMap} />
+                    <img className="img-fluid" src={vacancyDensityMap} alt='Vacancy Density Map' />
                     {/* <a className="light" href={vacancyDensityMap}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
@@ -117,7 +129,7 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand manipul design">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={metroHomicidesMap} />
+                    <img className="img-fluid" src={metroHomicidesMap} alt='Metro Vancouver Homicides Map' />
                     {/* <a className="light" href={metroHomicidesMap}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
@@ -131,7 +143,7 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand creative">
                 <div className="h_gallery_item">
                   <div className="g_img_item">
-                    <img className="img-fluid" src={iosApps} />
+                    <img className="img-fluid" src={iosApps} alt='iOS Apps' />
                     {/* <a className="light" href={iosApps}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">

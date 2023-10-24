@@ -7,10 +7,22 @@ export default class About extends Component {
       return (
       <div>
         <Helmet>
-          <title>Dana Huget Portfolio</title>
-          <meta name="description" content="React web app deployed on Firebase showcasing some of the software development and GIS work of Dana Huget" />
+          <title>Dana Huget Portfolio | Software Developer</title>
+          <meta name="description" content="Check out the projects showcasing the work of GIS and full-stack web software developer Dana Huget" />
           <meta name="image" content={preview} />
-          <meta name ="url" content="https://danaaliyah.com"/>
+          <meta name ="url" content="https://danaaliyah.com" />
+          <link rel="canonical" href="https://danaaliyah.com/" />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:url" content="https://danaaliyah.com" />
+          <meta property="og:title" content="Dana Huget profile page" />
+          <meta property="og:description" content="Check out the projects showcasing the work of GIS and full-stack web software developer Dana Huget" />
+          <meta property="og:site_name" content="Dana Huget Portfolio | Software Developer" />
+          <meta property="og:type" content="profile" />
+          <meta property="profile:first_name" content="Dana" />
+          <meta property="profile:last_name" content="Huget" />
+          <meta property="og:locale" content="en_CA" />
+          <meta property="og:image" content={preview} />
+          <meta property="og:image:type" content="image/png" />
         </Helmet>
         <section className="welcome_area p_120">
           <div className="container">
