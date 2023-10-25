@@ -60,15 +60,15 @@ export default class Home extends Component {
                       <h3>dana huget</h3>
                       <h4>software developer, bsc geomatics</h4>
                       <ul className="list basic_info">
-                        <li><a href={Pdf} target = "_blank"><i className="lnr lnr-download" />Resume</a></li>
+                        <li><a href={Pdf} target = "_blank" rel="noreferrer"><i className="lnr lnr-download" />Resume</a></li>
                         <li><a href="mailto: danaliyahuget@gmail.com"><i className="lnr lnr-envelope" />Email Me</a></li>
-                        <li><a href="https://goo.gl/maps/FpXecvVV91kDRQex9" target="_blank"><i className="lnr lnr-map-marker" /> Victoria, BC Canada</a></li>
+                        <li><a href="https://goo.gl/maps/FpXecvVV91kDRQex9" target="_blank" rel="noreferrer"><i className="lnr lnr-map-marker" /> Victoria, BC Canada</a></li>
                       </ul>
                       <ul className="list personal_social">
-                        <li><a href="https://www.linkedin.com/in/dana-huget" target="_blank"><i className="fa fa-linkedin" /></a></li>
-                        <li><a href="https://github.com/dahuget" target="_blank"><i className="fa fa-github" /></a></li>
-                        <li><a href="https://danahuget.home.blog" target="_blank"><i className="fa fa-wordpress" /></a></li>
-                        <li><a href="https://www.instagram.com/honeypothogs" target="_blank"><i className="fa fa-instagram" /></a></li>
+                        <li><a href="https://www.linkedin.com/in/dana-huget" target="_blank" rel="noreferrer"><i className="fa fa-linkedin" /></a></li>
+                        <li><a href="https://github.com/dahuget" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a></li>
+                        <li><a href="https://danahuget.home.blog" target="_blank" rel="noreferrer"><i className="fa fa-wordpress" /></a></li>
+                        <li><a href="https://www.instagram.com/honeypothogs" target="_blank" rel="noreferrer"><i className="fa fa-instagram" /></a></li>
                       </ul>
                     </div>
                   </div>

@@ -434,7 +434,8 @@ h6 {
 }
 
 .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
-  color: rgba(255, 255, 255, 0.75);
+  /* color: rgba(255, 255, 255, 0.75); */
+  color: #fff;
   margin-bottom: 0px;
   padding-top: 20px;
   font-weight: 500;
@@ -449,13 +450,20 @@ h6 {
   color: #EB9DA9;
   font-size: 21px;
   text-transform: uppercase;
-  margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
   text-shadow: 2px 2px 5px black;
 }
 
+.tabs_inner .tab-content .tab-pane .list li .media .media-body h5 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
 .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
-  color: rgba(255, 255, 255, 0.75);
+  /* color: rgba(255, 255, 255, 0.75); */
+  color: #fff;
   margin-bottom: 0px;
   font-weight: 500;
   text-shadow: 2px 2px 5px black;

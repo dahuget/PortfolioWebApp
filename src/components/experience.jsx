@@ -45,9 +45,10 @@ export default class Experience extends Component {
                           <p className="date-shift">Jun 2021 - Oct 2023</p>
                         </div>
                         <div className="media-body">
-                          <a href="https://www.trailmarksys.com/" target="_blank">
+                          <a href="https://www.trailmarksys.com/" target="_blank" rel="noreferrer">
                             <h4>Trailmark Systems</h4>
                           </a>
+                          <h5>Community-based Indigenous web mapping & custom GIS software</h5>
                           <p>Web & GIS Developer <br />Victoria, BC</p>
                         </div>
                       </div>
@@ -59,9 +60,10 @@ export default class Experience extends Component {
                           <p className="date-shift">Sep 2018 - May 2021</p>
                         </div>
                         <div className="media-body">
-                          <a href="https://www.19labs.com/" target="_blank">
+                          <a href="https://www.19labs.com/" target="_blank" rel="noreferrer">
                             <h4>19Labs</h4>
                           </a>
+                          <h5>A smart point-of-care solution that provides connected access to health care</h5>
                           <p>Intermediate Software Engineer <br />Victoria, BC</p>
                         </div>
                       </div>
@@ -73,7 +75,7 @@ export default class Experience extends Component {
                           <p className="date-shift">Apr 2018 - Sep 2018</p>
                         </div>
                         <div className="media-body">
-                          <a href="https://www.19labs.com/" target="_blank">
+                          <a href="https://www.19labs.com/" target="_blank" rel="noreferrer">
                             <h4>19Labs</h4>
                           </a>
                           <p>Junior Software Engineer (Coop) <br />Victoria, BC</p>
@@ -87,9 +89,10 @@ export default class Experience extends Component {
                           <p className="date-shift">Sep 2017 - Dec 2017</p>
                         </div>
                         <div className="media-body">
-                          <a href="https://indrorobotics.ca" target="_blank">
+                          <a href="https://indrorobotics.ca" target="_blank" rel="noreferrer">
                             <h4>InDro Robotics & Remote Sensing</h4>
                           </a>
+                          <h5>Full-range of remotely-piloted 'unmanned' aerial, water and land services</h5>
                           <p>Jr Autonomous Systems Engineer (Coop) <br />Salt Spring Island, BC</p>
                         </div>
                       </div>
@@ -116,7 +119,7 @@ export default class Experience extends Component {
                           <p className="date-shift">Jan 2016 - Dec 2018</p>
                         </div>
                         <div className="media-body">
-                          <a href="https://www.uvic.ca/socialsciences/geography/undergraduate/programs/geomatics/index.php" target="_blank">
+                          <a href="https://www.uvic.ca/socialsciences/geography/undergraduate/programs/geomatics/index.php" target="_blank" rel="noreferrer">
                             <h4>University of Victoria</h4>
                           </a>
                           <p>BSc Combined Majors Geography & Computer Science (Geomatics) <br />Victoria, BC</p>
@@ -130,7 +133,7 @@ export default class Experience extends Component {
                           <p style={{paddingLeft: '40px', marginRight: '10px'}}>December 2017</p>
                         </div>
                         <div className="media-body">
-                          <a href="https://indrorobotics.ca/training" target="_blank">
+                          <a href="https://indrorobotics.ca/training" target="_blank" rel="noreferrer">
                             <h4>InDro Robotics & Remote Sensing</h4>
                           </a>
                           <p>Compliant UAV Pilot <br />Salt Spring Island, BC</p>
@@ -144,7 +147,7 @@ export default class Experience extends Component {
                           <p className="date-shift">Jan 2012 - Apr 2012</p>
                         </div>
                         <div className="media-body">
-                          <a href="https://www.concordia.ca" target="_blank">
+                          <a href="https://www.concordia.ca" target="_blank" rel="noreferrer">
                             <h4>University of Concordia</h4>
                           </a>
                           <p>Independent Studies <br />Montreal, QC</p>
@@ -158,7 +161,7 @@ export default class Experience extends Component {
                           <p className="date-shift">Sep 2010 - Dec 2011</p>
                         </div>
                         <div className="media-body">
-                          <a href="https://www.macewan.ca/English" target="_blank">
+                          <a href="https://www.macewan.ca/English" target="_blank" rel="noreferrer">
                             <h4>Macewan University</h4>
                           </a>
                           <p>English & Classics<br />Edmonton, AB</p>

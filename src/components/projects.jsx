@@ -8,7 +8,6 @@ import metroHomicidesMap from './img/metro-homicides-map.png'
 import vacancyDensityMap from './img/vacancy-density-map.png'
 import motoFlash from './img/moto-flash.png'
 import virtualWorld from './img/virtual-world.png'
-import binoculars from './img/binoculars-icon.png'
 import preview from './img/preview.png'
 import film00 from './img/film-00.png'
 import film0 from './img/film-0.png'
@@ -77,7 +76,7 @@ export default class Projects extends Component {
                     {/* <a className="light" href={climateMap}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
-                    <a href="https://github.com/dahuget/ClimateWebApp" target="_blank">
+                    <a href="https://github.com/dahuget/ClimateWebApp" target="_blank" rel="noreferrer">
                       <h4>Interactive Global Climate Web App</h4>
                     </a>
                     <p>Mapbox Studio, Javascript</p>
@@ -91,7 +90,7 @@ export default class Projects extends Component {
                     {/* <a className="light" href={motoFlash}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
-                    <a href="https://github.com/dahuget/2DFlashAnimation" target="_blank">
+                    <a href="https://github.com/dahuget/2DFlashAnimation" target="_blank" rel="noreferrer">
                       <h4>2D Flash Animation</h4>
                     </a>
                     <p>OpenGL, C++ & GLSL</p>
@@ -105,7 +104,7 @@ export default class Projects extends Component {
                     {/* <a className="light" href={virtualWorld}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
-                    <a href="https://github.com/dahuget/VirtualWorld" target="_blank">
+                    <a href="https://github.com/dahuget/VirtualWorld" target="_blank" rel="noreferrer">
                       <h4>3D Virtual World Rendering</h4>
                     </a>
                     <p>OpenGL, C++ & GLSL</p>
@@ -119,7 +118,7 @@ export default class Projects extends Component {
                     {/* <a className="light" href={vacancyDensityMap}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
-                    <a href="https://danahuget.home.blog/2019/05/27/analyzing-canadian-census-data/" target="_blank">
+                    <a href="https://danahuget.home.blog/2019/05/27/analyzing-canadian-census-data/" target="_blank" rel="noreferrer">
                       <h4>How To Analyze Canadian Census Data Blog</h4>
                     </a>
                     <p>WordPress, R</p>
@@ -133,7 +132,7 @@ export default class Projects extends Component {
                     {/* <a className="light" href={metroHomicidesMap}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
-                    <a href="https://danahuget.home.blog/2019/05/27/analyzing-homicides-in-the-greater-vancouver-area/" target="_blank">
+                    <a href="https://danahuget.home.blog/2019/05/27/analyzing-homicides-in-the-greater-vancouver-area/" target="_blank" rel="noreferrer">
                       <h4>Crime Point Pattern Analysis Blog</h4>
                     </a>
                     <p>WordPress, R</p>
@@ -147,7 +146,7 @@ export default class Projects extends Component {
                     {/* <a className="light" href={iosApps}><img src={binoculars} /></a> */}
                   </div>
                   <div className="g_item_text">
-                    <a href="https://github.com/dahuget/repodanes/tree/master/iOS-apps" target="_blank">
+                    <a href="https://github.com/dahuget/repodanes/tree/master/iOS-apps" target="_blank" rel="noreferrer">
                       <h4>Various Simple iOS Apps</h4>
                     </a>
                     <p>Swift</p>
@@ -169,7 +168,7 @@ export default class Projects extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6 brand manipul design"></div>
             </div>
             <div className="more_btn">
-              <a className="main_btn" href="https://github.com/dahuget" target="_blank">More on Github</a>
+              <a className="main_btn" href="https://github.com/dahuget" target="_blank" rel="noreferrer">More on Github</a>
             </div>
             <div>
               <SlideShow
