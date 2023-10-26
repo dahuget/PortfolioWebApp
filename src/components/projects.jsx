@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import SlideShow from 'react-image-show';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 import ReactPlayer from 'react-player/youtube';
 import climateMap from './img/climate-map.PNG';
 import iosApps from './img/ios-apps.png';
@@ -39,6 +40,11 @@ export default function Projects() {
   const imgArray = [
     film00, film0, film1, film2, film3, film4, film5, film6, film7, film8, film9, film10, film11, film12, film13, film14, film15, film16, film17, film18, film19, film20, film21, film22, film23
   ];
+  const items = imgArray.map((image, i) => {
+    return <div key={i}>
+      <img src={image} alt="title" />
+    </div>
+  });
   useEffect(() => {
     <Helmet>
       <title>Dana Huget Portfolio | Software Developer</title>
@@ -74,7 +80,6 @@ export default function Projects() {
               <div className="h_gallery_item">
                 <div className="g_img_item">
                   <img className="img-fluid" src={climateMap} alt='Climate Map' />
-                  {/* <a className="light" href={climateMap}><img src={binoculars} /></a> */}
                 </div>
                 <div className="g_item_text">
                   <a href="https://github.com/dahuget/ClimateWebApp" target="_blank" rel="noreferrer">
@@ -88,7 +93,6 @@ export default function Projects() {
               <div className="h_gallery_item">
                 <div className="g_img_item">
                   <img className="img-fluid" src={motoFlash} alt='2D Flash Animation' />
-                  {/* <a className="light" href={motoFlash}><img src={binoculars} /></a> */}
                 </div>
                 <div className="g_item_text">
                   <a href="https://github.com/dahuget/2DFlashAnimation" target="_blank" rel="noreferrer">
@@ -102,7 +106,6 @@ export default function Projects() {
               <div className="h_gallery_item">
                 <div className="g_img_item">
                   <img className="img-fluid" src={virtualWorld} alt='3D Virtual World' />
-                  {/* <a className="light" href={virtualWorld}><img src={binoculars} /></a> */}
                 </div>
                 <div className="g_item_text">
                   <a href="https://github.com/dahuget/VirtualWorld" target="_blank" rel="noreferrer">
@@ -116,7 +119,6 @@ export default function Projects() {
               <div className="h_gallery_item">
                 <div className="g_img_item">
                   <img className="img-fluid" src={vacancyDensityMap} alt='Vacancy Density Map' />
-                  {/* <a className="light" href={vacancyDensityMap}><img src={binoculars} /></a> */}
                 </div>
                 <div className="g_item_text">
                   <a href="https://danahuget.home.blog/2019/05/27/analyzing-canadian-census-data/" target="_blank" rel="noreferrer">
@@ -130,7 +132,6 @@ export default function Projects() {
               <div className="h_gallery_item">
                 <div className="g_img_item">
                   <img className="img-fluid" src={metroHomicidesMap} alt='Metro Vancouver Homicides Map' />
-                  {/* <a className="light" href={metroHomicidesMap}><img src={binoculars} /></a> */}
                 </div>
                 <div className="g_item_text">
                   <a href="https://danahuget.home.blog/2019/05/27/analyzing-homicides-in-the-greater-vancouver-area/" target="_blank" rel="noreferrer">
@@ -144,7 +145,6 @@ export default function Projects() {
               <div className="h_gallery_item">
                 <div className="g_img_item">
                   <img className="img-fluid" src={iosApps} alt='iOS Apps' />
-                  {/* <a className="light" href={iosApps}><img src={binoculars} /></a> */}
                 </div>
                 <div className="g_item_text">
                   <a href="https://github.com/dahuget/repodanes/tree/master/iOS-apps" target="_blank" rel="noreferrer">
@@ -176,20 +176,15 @@ export default function Projects() {
           <div className="more_btn">
             <a className="main_btn" href="https://github.com/dahuget" target="_blank" rel="noreferrer">More on Github</a>
           </div>
-          <div>
-            <SlideShow
-              images={imgArray}
-              width="920px"
-              imagesWidth="800px"
-              imagesHeight="450px"
-              imagesHeightMobile="56vw"
-              thumbnailsWidth="920px"
-              thumbnailsHeight="12vw"
-              indicators thumbnails fixedImagesHeight
-            />
-            <div className="gallery-text">
-              <h4>Film Photography</h4>
-              <p>Vanvouver Isl, Edmonton, Austin, Quadra Isl, Montreal</p>
+          <div class="row justify-content-md-center">
+            <div className="col-lg-8 col-md-8 col-sm-10">
+              <Carousel>
+                {items}
+              </Carousel>
+              <div className="gallery-text">
+                <h4>Film Photography</h4>
+                <p>Vanvouver Isl, Edmonton, Austin, Quadra Isl, Montreal</p>
+              </div>
             </div>
           </div>
         </div>
