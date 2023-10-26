@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import SlideShow from 'react-image-show';
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/youtube';
 import climateMap from './img/climate-map.PNG';
 import iosApps from './img/ios-apps.png';
 import metroHomicidesMap from './img/metro-homicides-map.png';
@@ -156,10 +156,15 @@ export default function Projects() {
             </div>
             <div className="col-lg-4 col-md-4 col-sm-6 brand manipul design"></div>
             <div className="col-lg-4 col-md-4 col-sm-6 brand creative">
-              <div className="h_gallery_item">
-                <div className="g_img_item g_video_item">
-                  <ReactPlayer url='https://youtu.be/rqq_HcngMFQ' />
-                </div>
+              <div className="h_gallery_item g_video_item">
+                <ReactPlayer
+                  url='https://youtu.be/rqq_HcngMFQ'
+                  config={{
+                    youtube: {
+                      playerVars: { showinfo: 1, controls: 1, origin: 'https://danaaliyah.com/' }
+                    }
+                  }}
+                />
                 <div className="g_item_text">
                   <h4 style={{ color: '#EB9DA9' }}>AI Intake Web App</h4>
                   <p>Demo of GoLang app integrated with patient triage API</p>
