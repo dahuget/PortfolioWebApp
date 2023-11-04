@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-import { Helmet } from 'react-helmet';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import ReactPlayer from 'react-player/youtube';
@@ -9,7 +7,6 @@ import metroHomicidesMap from './img/metro-homicides-map.png';
 import vacancyDensityMap from './img/vacancy-density-map.png';
 import motoFlash from './img/moto-flash.png';
 import virtualWorld from './img/virtual-world.png';
-import preview from './img/preview.png';
 import film00 from './img/film-00.png';
 import film0 from './img/film-0.png';
 import film1 from './img/film-1.png';
@@ -40,31 +37,13 @@ export default function Projects() {
   const imgArray = [
     film00, film0, film1, film2, film3, film4, film5, film6, film7, film8, film9, film10, film11, film12, film13, film14, film15, film16, film17, film18, film19, film20, film21, film22, film23
   ];
+
   const items = imgArray.map((image, i) => {
     return <div key={i}>
       <img src={image} alt="title" />
     </div>
   });
-  useEffect(() => {
-    <Helmet>
-      <title>Dana Huget Portfolio | Software Developer</title>
-      <meta name="description" content="Check out the projects showcasing the work of GIS and full-stack web software developer Dana Huget" />
-      <meta name="image" content={preview} />
-      <meta name="url" content="https://danaaliyah.com" />
-      <link rel="canonical" href="https://danaaliyah.com/" />
-      <meta name="robots" content="index, follow" />
-      <meta property="og:url" content="https://danaaliyah.com" />
-      <meta property="og:title" content="Dana Huget profile page" />
-      <meta property="og:description" content="Check out the projects showcasing the work of GIS and full-stack web software developer Dana Huget" />
-      <meta property="og:site_name" content="Dana Huget Portfolio | Software Developer" />
-      <meta property="og:type" content="profile" />
-      <meta property="profile:first_name" content="Dana" />
-      <meta property="profile:last_name" content="Huget" />
-      <meta property="og:locale" content="en_CA" />
-      <meta property="og:image" content={preview} />
-      <meta property="og:image:type" content="image/png" />
-    </Helmet>
-  });
+
   return (
     <>
       <section className="home_gallery_area">
@@ -85,7 +64,7 @@ export default function Projects() {
                   <a href="https://github.com/dahuget/ClimateWebApp" target="_blank" rel="noreferrer">
                     <h4>Interactive Global Climate Web App</h4>
                   </a>
-                  <p>Mapbox Studio, Javascript</p>
+                  <p>Mapbox GL JS, Javascript</p>
                 </div>
               </div>
             </div>
@@ -161,7 +140,7 @@ export default function Projects() {
                   url='https://youtu.be/rqq_HcngMFQ'
                   config={{
                     youtube: {
-                      playerVars: { showinfo: 1, controls: 1, origin: 'https://danaaliyah.com/' }
+                      playerVars: { showinfo: 1, controls: 1, origin: window.location.origin }
                     }
                   }}
                 />
